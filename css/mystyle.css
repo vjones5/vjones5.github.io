@@ -1,0 +1,138 @@
+/* CSS for portfolio */
+
+/**{border: 1px solid black;}*/
+
+body{
+  	font-family:arial, sans-serif;
+  	background-color:#f5fafa;
+}
+
+#email{
+	color:white;
+	font-style:italic;
+}
+
+.grey{
+	background-color:grey;
+	color:white;
+}
+
+nav{
+	margin-bottom:15px;
+	background-color:#314455;
+}
+
+.line{
+	background-color:#ff8200;
+	height:2px;
+}
+
+.altline{
+	border-bottom:2px solid #ff8200;
+	padding-bottom:5px;
+}
+
+img.respond{
+	width:100%;
+	max-width:500px;
+	height:auto;
+}
+
+figcaption{
+	color:white;
+	font-style:italic;
+	font-size:0.75em;
+}
+
+#title{
+	font-family:arial black;
+}
+
+p.exerpt{
+	font-family:baskerville, baskerville old face, times new roman;
+}
+
+.blue{
+	border-top:10px solid #314455;
+	border-bottom:10px solid #314455;
+}
+
+.blue2{
+	background-color:#6b848e;
+	color:white;
+}
+
+.red{
+	border:15px solid red;
+}
+
+.red1{
+	border-top:15px solid #c96567;
+	border-left:15px solid #c96567;
+	border-right:15px solid #c96567;
+	border-radius:30px 30px 15px 15px;
+}
+
+.red2{
+	border-bottom:15px solid #c96567;
+	border-left:15px solid #c96567;
+	border-right:15px solid #c96567;
+	border-radius:30px 30px 15px 15px;
+}
+
+.red3{
+	border-bottom:15px solid #9e5a63;
+	border-left:15px solid #9e5a63;
+	border-right:15px solid #9e5a63;
+	border-radius:30px 30px 15px 15px;
+}
+
+#social{
+	color:white;
+}
+
+footer{
+	background-color:#314455;
+}
+
+footer .copyright{
+	color:white;
+	font-size:12px;
+	font-style:italic;
+}
+
+footer a{
+	color:white;
+}
+
+footer a:hover{
+	color:#ff8200;
+}
+
+.hite{
+	min-height:500px;
+}/* FOR TESTING ONLY! */
+
+@media (min-width: 576px){
+	#title p.name{
+		font-size:2.0em;
+	}
+}
+
+@media (min-width: 768px){
+	#title p.name{
+		font-size:2.5em;
+	}
+}
+
+@media (max-width: 576px){
+	#education ul li{
+		font-size:0.85em;
+	}
+}
+
+@media (max-width: 576px){
+	.altline{
+		border:0 solid black;
+	}
+}
