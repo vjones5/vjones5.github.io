@@ -12,6 +12,15 @@ body{
 	font-style:italic;
 }
 
+#email a{
+	color:lightblue;
+	text-decoration:underline;
+}
+
+#liteblue{
+	color:lightblue;
+}
+
 .grey{
 	background-color:grey;
 	color:white;
