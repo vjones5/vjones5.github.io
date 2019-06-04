@@ -61,17 +61,33 @@ p.exerpt{
 	font-family:baskerville, baskerville old face, times new roman;
 }
 
-.blue{
+.orange{
 	/* border-top:10px solid #314455;
 	border-bottom:10px solid #314455; */
 	border-top:2px solid #ff8200;
 	border-bottom:2px solid #ff8200;
 }
 
-.blue2{
-	/* background-color:#6b848e; */
+/* Formerly .blue2 */
+.box_border{
 	background-image: linear-gradient(#314455,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#314455);
+	Position:relative;
+	/* background-color:#6b848e; */
+	border-top:20px solid #314455;
+	border-bottom:20px solid #314455;
 	color:white;
+}
+
+.box_border:after{
+	border-top:2px solid #ff8200;
+	border-bottom:2px solid #ff8200;
+  	content: "";
+  	display: block;
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	right: 0px;
+  	bottom: 0px;
 }
 
 .red1{
