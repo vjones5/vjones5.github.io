@@ -6,7 +6,7 @@
 }
 
 body{
-  	font-family:arial, sans-serif;
+  	font-family:"pill",arial, sans-serif;
   	background-color:#f5fafa;
 }
 
@@ -24,13 +24,13 @@ body{
 	list-style-image: url('../imgs/arrow_blt.png');
 }
 
-#education ul li{
+/* #education ul li{
 	font-family:"pill";
 }
 
 #tools ul li{
 	font-family:"pill";
-}
+} */
 
 #liteblue{
 	color:lightblue;
@@ -73,12 +73,10 @@ figcaption{
 }
 
 p.exerpt{
-	font-family:baskerville, baskerville old face, times new roman;
+	font-family:'baskerville','baskerville old face','times new roman';
 }
 
 .orange{
-	/* border-top:10px solid #314455;
-	border-bottom:10px solid #314455; */
 	border-top:2px solid #ff8200;
 	border-bottom:2px solid #ff8200;
 }
@@ -143,7 +141,7 @@ footer a:hover{
 
 .hite{
 	min-height:500px;
-}/* FOR TESTING ONLY! */
+}/* <-- FOR TESTING ONLY! */
 
 @media (min-width: 576px){
 	#title p.name{
