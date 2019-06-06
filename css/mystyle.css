@@ -1,6 +1,9 @@
 /* CSS for portfolio */
 
-/**{border: 1px solid black;}*/
+@font-face{
+	font-family:"pill";
+	src: url('../fonts/Pill Gothic 600mg Semibd.ttf') format("truetype");
+}
 
 body{
   	font-family:arial, sans-serif;
@@ -19,6 +22,14 @@ body{
 
 * ul{
 	list-style-image: url('../imgs/arrow_blt.png');
+}
+
+#education ul li{
+	font-family:"pill";
+}
+
+#tools ul li{
+	font-family:"pill";
 }
 
 #liteblue{
