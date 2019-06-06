@@ -70,9 +70,9 @@ p.exerpt{
 
 /* Formerly .blue2 */
 .box_border{
-	background-image: linear-gradient(#314455,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#314455);
+	/* background-image: linear-gradient(#314455,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#314455); */
+	background-image: linear-gradient(#314455,#6b848e 20%,#314455);
 	Position:relative;
-	/* background-color:#6b848e; */
 	border-top:20px solid #314455;
 	border-bottom:20px solid #314455;
 	color:white;
