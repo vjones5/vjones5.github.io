@@ -17,6 +17,10 @@ body{
 	text-decoration:underline;
 }
 
+* ul{
+	list-style-image: url('../imgs/arrow_blt.png');
+}
+
 #liteblue{
 	color:lightblue;
 }
