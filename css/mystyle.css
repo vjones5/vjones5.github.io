@@ -7,7 +7,7 @@
 
 body{
   	font-family:"pill",arial, sans-serif;
-  	background-color:#f5fafa;
+	background-color:#f5fafa;
 }
 
 #email{
@@ -24,13 +24,11 @@ body{
 	list-style-image: url('../imgs/arrow_blt.png');
 }
 
-/* #education ul li{
-	font-family:"pill";
+#education, #tools{
+	background: url('../imgs/bakgrownd_clr.png');
+	background-repeat:no-repeat;
+	background-size:cover;
 }
-
-#tools ul li{
-	font-family:"pill";
-} */
 
 #liteblue{
 	color:lightblue;
