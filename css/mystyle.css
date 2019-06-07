@@ -10,6 +10,10 @@ body{
 	background-color:#f5fafa;
 }
 
+.modal{
+	font-family:arial,sans-serif;
+}
+
 #email{
 	color:white;
 	font-style:italic;
