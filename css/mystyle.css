@@ -17,6 +17,14 @@ body{
 	font-family:arial,sans-serif;
 }
 
+#gallery img:hover{
+	border:2px solid orange;
+}
+
+#gallery img:active{
+	opacity:0.5;
+}
+
 #email{
 	color:white;
 	font-style:italic;
