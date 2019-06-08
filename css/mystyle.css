@@ -7,7 +7,10 @@
 
 body{
   	font-family:"pill",arial, sans-serif;
-	background-color:#f5fafa;
+	/* background-color:#f5fafa; */
+	background: url('../imgs/bakgrownd_sprd.png');
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 .modal{
