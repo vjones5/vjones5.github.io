@@ -7,7 +7,6 @@
 
 body{
   	font-family:"pill",arial, sans-serif;
-	/* background-color:#f5fafa; */
 	background: url('../imgs/bakgrownd_sprd.png');
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -85,18 +84,16 @@ figcaption{
 	font-family:arial black;
 }
 
-p.exerpt{
-	font-family:'baskerville','baskerville old face','times new roman';
-}
-
 .orange{
 	border-top:2px solid #ff8200;
 	border-bottom:2px solid #ff8200;
 }
 
-/* Formerly .blue2 */
+.exerpt{
+	font-family:arial, sans-serif;
+}
+
 .box_border{
-	/* background-image: linear-gradient(#314455,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#6b848e,#314455); */
 	background-image: linear-gradient(#314455,#6b848e 20%,#314455);
 	Position:relative;
 	border-top:20px solid #314455;
@@ -141,7 +138,6 @@ footer{
 footer .copyright{
 	color:white;
 	font-size:12px;
-	font-style:italic;
 }
 
 footer a{
