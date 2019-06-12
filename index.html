@@ -44,9 +44,9 @@
 			</div>
 	</section><!-- END OF header section -->
 	
-	<!-- EXERPT -->
+	<!-- TAG LINE -->
 	<p class="text-center"><strong>I'm motivated, I'm personable, and most of all I'm adaptable.  I have a lot of energy and creativity to offer and would love to put it all to great use!</strong></p>
-	<!-- EXERPT -->
+	<!-- TAG LINE -->
 	
 	<section id="education" class="container-fluid box_border py-5 mt-5">
 		<div class="row align-items-center">
@@ -74,11 +74,17 @@
     	</div><!-- END OF row -->
 	</section><!-- END OF education -->
 
-	<!-- Work Description -->
-	<div class="container">
-
-		<p class="mt-5"><strong>At heart, I'm a problem solver.  I love finding solutions that fit needs and demands.</strong><img src="imgs/myHead.png" class="px-3" alt="my pixel head"></p>
-			
+	<!-- SERVICES -->
+	<div class="container pb-2">
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="col-4">
+				<img src="imgs/myHead_body.png" class="pt-5 p-2 mx-auto d-block" alt="my pixel head">
+			</div>
+			<div class="col-4"></div>
+		</div>
+		<p class="text-center pb-2"><strong>At heart, I'm a problem solver.  I love finding solutions that fit needs and demands.</strong></p>
+	
 		<p class="exerpt">My work focuses around responsive web design, and mobile compatibility.</p>
 			
 		<p class="exerpt">By utilizing design principles that favor simplicity and clarity, I can produce layouts that are easy to digest, navigate, and function on any device.</p>
@@ -92,9 +98,8 @@
 		<p class="exerpt">Need an editor?  I have experience in video and audio editing, balancing levels, handling transitions and compositions, color filtering, and storytelling.</p>
 
 		<p class="exerpt">Expedience without sacrificing quality!  I can turn out work regularly and rapidly, to create a clean product that you'll be proud to show off.</p>
-
-	</div><!-- CONTAINER -->
-	<!-- END OF Work Description -->
+	</div>
+	<!-- SERVICES -->
 	
 	<section id="tools" class="container-fluid pt-5 mt-5 box_border">
 		<h3 class="text-center m-0 p-0"><strong>TOOLKIT</strong></h3>
@@ -201,9 +206,9 @@
 	  	<p id="social" class="text-center">
 	  		<a href="https://www.linkedin.com/in/virgil-jones-082a97b2/"><i class="fab fa-linkedin fa-3x pt-3"></i></a>
 	    </p>
-	    <p class="text-center" id="email">Email: <a href="mailto:jonesjr.virgil@yahoo.com">jonesjr.virgil@yahoo.com</a><br>Phone: <span id="liteblue">(360) 606-7458</span></p>
+	    <p class="text-center" id="email">Email: <a href="mailto:jonesjr.virgil@yahoo.com"><span class="liteblue">jonesjr.virgil@yahoo.com</span></a><br>Phone: <span class="liteblue">(360) 606-7458</span></p>
 	    <!-- <div class="line mb-2"></div>LINE BREAK -->
-        <p class="copyright text-center">Copyright &copy; Virgil C. Jones Jr. 2019</p>
+        <p class="copyright text-center">Copyright &copy; Virgil C. Jones Jr. <span id="year">2019</span></p>
   	</footer>
 
 <!-- MODALS -->
@@ -237,7 +242,7 @@
 					<div class="modal-body">
 						<div class="container text-center">
 							<img class="img-fluid" src="imgs/pixel_work.png" alt="samples of pixel work">
-							<img class="img-fluid" src="imgs/floor_tiles.png" alt="pixel tiles">
+							<img class="img-fluid mt-2" src="imgs/floor_tiles.png" alt="pixel tiles">
 						</div>
 						<div class="container">
 							<p class="pt-3">Hobbyist pursuit in pixel-based sprite art for video games and other digital media.  Assets for indie development and personal use.  Images created in MS Paint, Paint Tool Sai, and Adobe Photoshop</p><br>
@@ -279,6 +284,7 @@
 					<div class="modal-body">
 						<div class="container text-center">
 							<img class="img-fluid" src="imgs/paradox.jpg" alt="oroboros sketch">
+							<img class="img-fluid" src="imgs/weapons.png" alt="misc. weapon sketches">
 							<img class="img-fluid" src="imgs/hell_hound.jpg" alt="monster sketch">
 						</div>
 						<div class="container">
@@ -369,6 +375,8 @@
 				</div>
 			</div>
 		</div><!-- Modal -->
+
+		<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
 
   </body>
 </html>

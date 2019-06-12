@@ -10,6 +10,16 @@ body{
 	background: url('../imgs/bakgrownd_sprd.png');
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-position:center center;
+}
+
+#title{
+	font-family:"arial black";
+}
+
+.exerpt{
+	font-family:arial, sans-serif;
+	font-size:14px;
 }
 
 .modal{
@@ -24,16 +34,6 @@ body{
 	opacity:0.5;
 }
 
-#email{
-	color:white;
-	font-style:italic;
-}
-
-#email a{
-	color:lightblue;
-	text-decoration:underline;
-}
-
 * ul{
 	list-style-image: url('../imgs/arrow_blt.png');
 }
@@ -44,13 +44,8 @@ body{
 	background-size:cover;
 }
 
-#liteblue{
+.liteblue{
 	color:lightblue;
-}
-
-.grey{
-	background-color:grey;
-	color:white;
 }
 
 nav{
@@ -80,17 +75,9 @@ figcaption{
 	font-size:0.75em;
 }
 
-#title{
-	font-family:arial black;
-}
-
 .orange{
 	border-top:2px solid #ff8200;
 	border-bottom:2px solid #ff8200;
-}
-
-.exerpt{
-	font-family:arial, sans-serif;
 }
 
 .box_border{
@@ -113,6 +100,8 @@ figcaption{
   	bottom: 0px;
 }
 
+
+/* FOR PORTRAIT BORDERS */
 .red1{
 	border-top:15px solid #c96567;
 	border-left:15px solid #c96567;
@@ -120,6 +109,7 @@ figcaption{
 	border-radius:30px 30px 15px 15px;
 }
 
+/* FOR PORTRAIT BORDERS */
 .red2{
 	border-bottom:15px solid #c96567;
 	border-left:15px solid #c96567;
@@ -133,10 +123,10 @@ figcaption{
 
 footer{
 	background-color:#314455;
+	color:white;
 }
 
 footer .copyright{
-	color:white;
 	font-size:12px;
 }
 
@@ -144,14 +134,15 @@ footer a{
 	color:white;
 }
 
+footer #email a{
+	text-decoration:underline;
+}
+
 footer a:hover{
 	color:#ff8200;
 }
 
-.hite{
-	min-height:500px;
-}/* <-- FOR TESTING ONLY! */
-
+/* MOBILE ADJUST */
 @media (min-width: 576px){
 	#title p.name{
 		font-size:2.0em;
